@@ -44,7 +44,7 @@ O projeto reúne:
 ### 1) Clone o projeto
 
 ```bash
-git clone https://github.com/SEU_USUARIO/ComuniWatch.git
+git clone https://github.com/lolkajigoless/ComuniWatch.git
 cd ComuniWatch
 ```
 
@@ -113,49 +113,6 @@ EXPO_PUBLIC_OPENROUTESERVICE_KEY=sua_chave_opensource
 - Cadastro de desaparecidos
 - Alertas e mobilização comunitária
 
-## Como publicar no GitHub
-
-### Opção 1: criar um repositório novo pelo terminal
-
-```bash
-git init
-git add .
-git commit -m "Primeiro commit do ComuniWatch"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/ComuniWatch.git
-git push -u origin main
-```
-
-### Opção 2: criar no GitHub e conectar depois
-
-1. Acesse github.com
-2. Clique em New repository
-3. Dê um nome ao repositório, por exemplo: `ComuniWatch`
-4. Crie o repositório
-5. Volte no terminal e rode:
-
-```bash
-git init
-git add .
-git commit -m "Primeiro commit do ComuniWatch"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/ComuniWatch.git
-git push -u origin main
-```
-
-## Dicas importantes
-
-- Nunca envie arquivos `.env` para o GitHub
-- Use um arquivo `.gitignore` para ignorar `node_modules`, `.expo`, `.env`, caches e arquivos locais
-- Antes de cada push, rode:
-
-```bash
-git status
-git add .
-git commit -m "Ajustes do projeto"
-git push
-```
-
 ## Licença
 
-Este projeto foi desenvolvido para uso acadêmico e de demonstração. Ajuste a licença conforme a sua necessidade antes de publicar em produção.
+Este projeto foi desenvolvido para uso acadêmico e de demonstração.

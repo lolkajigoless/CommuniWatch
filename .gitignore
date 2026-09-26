@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+.expo-shared/
+.env
+.env.*
+.DS_Store
+npm-debug.log*
+backend/.env
+mobile/.env
+android/
+ios/
+coverage/
+.cache/
+*.log
